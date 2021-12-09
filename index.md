@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Super-Resolution Imaging
 
 You can use the [editor on GitHub](https://github.com/xingpengsun/639-final-project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
