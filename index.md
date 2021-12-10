@@ -1,5 +1,7 @@
 # Super-Resolution Imaging
 
+CS639 Final Project--Yiwen Xu, Xingpeng Sun
+
 ## Problem Statement
 
 Image super-resolution refers to the process of recovering a given low-resolution image into a corresponding high-resolution image by a specific algorithm. Specifically, it refers to the process of reconstructing a high-resolution image from a given low-resolution image by means of particular algorithms and processing processes using relevant knowledge in digital image processing, computer vision, and other fields. It aims to overcome or compensate for the problems of blurred imaging images, low quality, and unremarkable regions of interest due to the limitations of the image acquisition system or the acquisition environment itself. In lectures, we have learned many options to transform, sharpen, or smooth an image by utilizing computer vision algorithms, so it triggered our interest in exploring the field of image super-resolution deeply. Thus we wish to use this opportunity to implement computer vision algorithms in the image super-resolution field.
@@ -117,30 +119,14 @@ Although EDSR's PSNR value is higher than that of SRGAN, visually we find that t
 Left image is reconstructed by EDSR and the right image is reconstructed by SRGAN.
 
 ![This is an image](./images/compare.png)
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## Discussion
 
-1. Numbered
-2. List
+- Develop new evaluation metrics to better represent the resolution results
 
-**Bold** and _Italic_ and `Code` text
+The human eye is more sensitive to the contrast difference with lower spatial frequency, the brightness contrast difference than the chromaticity, and the human eye's eprception of an area will be affected by surronding area. PSNR based on error between corresponding pixels; does nnot consider human eye characteristics, so the evaluation results often appear to be inconsistent with people's subjective feelings.
 
-[Link](url) and ![Image](src)
-```
+- Develop models that has less computing complexity
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xingpengsun/639-final-project/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+The training time for current state-of-art frameworks are very long, and has large computing complexity. Models with less computing complexity could make super-resolution imaging task more efficient.
