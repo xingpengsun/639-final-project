@@ -99,6 +99,24 @@ The generator generates a high-resolution image from a low-resolution image, and
 **So, we can see that SRGAN has better evaluation performance than SRCNN.
 The model enhances the overall image visual effect with richer and more realistic details**
 
+
+## Comparing EDSR with SRGAN
+
+- EDSR
+
+PSNR=30.74
+SSIM=0.89
+
+- SRGAN
+
+PSNR=29.69
+SSIM=0.86
+
+Although EDSR's PSNR value is higher than that of SRGAN, visually we find that the image reconstructed by SRGAN is better. Thus, we find out PSNR may not be a very reliable evaluation metric.
+
+Left image is reconstructed by EDSR and the right image is reconstructed by SRGAN.
+
+![This is an image](./images/compare.png)
 ```markdown
 Syntax highlighted code block
 
