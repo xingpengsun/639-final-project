@@ -3,8 +3,8 @@
 CS639 Final Project--Yiwen Xu, Xingpeng Sun
 
 Useful Link:
-- Project Proposal (https://docs.google.com/document/d/e/2PACX-1vS99Wd1sXB8Z6nhq2qSQfb93kvwaMjLGk96aEHwmbzoiuKKXZNZQfprxPdxgOC8ELKgAhMDMCe0OC9F/pub)
-- Midterm Report (https://docs.google.com/document/d/e/2PACX-1vTCNl2ot6cpm-uum_fin1sAWhDPC4SWvaRe7Nbk-uVrkHxo9m2O-Rc18LIM3JS-sJwZGIV7EDqiFYH4/pub)
+- Project Proposal (https://docs.google.com/document/d/1Ekr2hV3Pj1pqFDVqpVoOE_JYNWO2BgXluL2VK7r1VMI/edit?usp=sharing)
+- Midterm Report (https://docs.google.com/document/d/16oOw_I7Ew_iA9dT2VvBWOrCawEs-mHExdA7qd0-mJco/edit?usp=sharing)
 - Final Presentation Slides (https://docs.google.com/presentation/d/10SfClXMF4nF8tHyq_OmXoB66pLqc1_QB/edit?usp=sharing&ouid=116887640948118439471&rtpof=true&sd=true)
 
 ## Problem Statement
