@@ -2,6 +2,11 @@
 
 CS639 Final Project--Yiwen Xu, Xingpeng Sun
 
+Useful Link:
+- Project Proposal (https://docs.google.com/document/d/1Ekr2hV3Pj1pqFDVqpVoOE_JYNWO2BgXluL2VK7r1VMI/edit?usp=sharing)
+- Midterm Report (https://docs.google.com/document/d/16oOw_I7Ew_iA9dT2VvBWOrCawEs-mHExdA7qd0-mJco/edit?usp=sharing)
+- Final Presentation Slides (https://docs.google.com/presentation/d/10SfClXMF4nF8tHyq_OmXoB66pLqc1_QB/edit?usp=sharing&ouid=116887640948118439471&rtpof=true&sd=true)
+
 ## Problem Statement
 
 Image super-resolution refers to the process of recovering a given low-resolution image into a corresponding high-resolution image by a specific algorithm. Specifically, it refers to the process of reconstructing a high-resolution image from a given low-resolution image by means of particular algorithms and processing processes using relevant knowledge in digital image processing, computer vision, and other fields. It aims to overcome or compensate for the problems of blurred imaging images, low quality, and unremarkable regions of interest due to the limitations of the image acquisition system or the acquisition environment itself. In lectures, we have learned many options to transform, sharpen, or smooth an image by utilizing computer vision algorithms, so it triggered our interest in exploring the field of image super-resolution deeply. Thus we wish to use this opportunity to implement computer vision algorithms in the image super-resolution field.
@@ -130,3 +135,11 @@ The human eye is more sensitive to the contrast difference with lower spatial fr
 - Develop models that has less computing complexity
 
 The training time for current state-of-art frameworks are very long, and has large computing complexity. Models with less computing complexity could make super-resolution imaging task more efficient.
+
+
+## Reference
+- Dong, C., Loy, C. C., He, K., & Tang, X. (2015). Image super-resolution using deep convolutional networks. IEEE transactions on pattern analysis and machine intelligence, 38(2), 295-307.
+- Ledig, C., Theis, L., Huszár, F., Caballero, J., Cunningham, A., Acosta, A., ... & Shi, W. (2017). Photo-realistic single image super-resolution using a generative adversarial network. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 4681-4690).
+- Lim, B., Son, S., Kim, H., Nah, S., & Mu Lee, K. (2017). Enhanced deep residual networks for single image super-resolution. In Proceedings of the IEEE conference on computer vision and pattern recognition workshops (pp. 136-144).
+- Yu, J., Fan, Y., Yang, J., Xu, N., Wang, Z., Wang, X., & Huang, T. (2018). Wide activation for efficient and accurate image super-resolution. arXiv preprint arXiv:1808.08718.
+
